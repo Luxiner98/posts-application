@@ -1,0 +1,15 @@
+.input {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  input {
+    width: 100%;
+    margin-right: 10px;
+    font-size: 26px;
+  }
+  button {
+    font-size: 26px;
+  }
+}

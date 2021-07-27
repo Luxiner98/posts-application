@@ -1,0 +1,44 @@
+.post-item {
+  color: #ffffff;
+  background-color: #565656;
+  border-radius: 10px;
+  border: 2px solid #ff6600;
+  padding: 10px;
+  margin-bottom: 25px;
+
+  &__title {
+    display: flex;
+    h1 {
+      &::first-letter {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__body {
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  &__text {
+    margin-bottom: 10px;
+  }
+
+  &__comments {
+    margin: 0 40px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s all ease-in;
+  }
+
+  &__comment {
+    padding: 10px 0;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+    &:not(:last-child) {
+      border-bottom: 1px solid #ffffff;
+    }
+  }
+}
